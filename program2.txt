@@ -1,0 +1,8 @@
+zbior=[2,5,9,6,4]
+suma=0
+def policz_suma (zbior):
+    for x in zbior:
+       suma += x
+    return suma
+x=policz_suma(zbior)
+print(x)
